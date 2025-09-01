@@ -1,0 +1,29 @@
+root = false
+
+[*.cs]
+# SYSLIB1045: Convert to 'GeneratedRegexAttribute'
+dotnet_diagnostic.SYSLIB1045.severity = none
+
+# CA1707: Identifiers should not contain underscores
+dotnet_diagnostic.CA1707.severity = none
+
+# CA1861: Avoid constant arrays as arguments
+dotnet_diagnostic.CA1861.severity = none
+
+# RCS1186: Use Regex instance instead of static method
+dotnet_diagnostic.RCS1186.severity = none
+
+# VSTHRD200: Use Async suffix for async methods
+dotnet_diagnostic.VSTHRD200.severity = none
+
+# xUnit1042: The member referenced by the MemberData attribute returns untyped data rows
+dotnet_diagnostic.xUnit1042.severity = default
+
+# xUnit1045: Avoid using TheoryData type arguments that might not be serializable
+dotnet_diagnostic.xUnit1045.severity = default
+
+# FAA0001: Simplify Assertion
+dotnet_diagnostic.FAA0001.severity = warning
+
+# FAA0002: Replace Xunit assertion with Fluent Assertions equivalent
+dotnet_diagnostic.FAA0002.severity = warning
